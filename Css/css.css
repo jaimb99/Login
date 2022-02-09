@@ -1,0 +1,12 @@
+fieldset{
+    background-color: rgb(172, 210, 243);
+    width: fit-content;
+   
+}
+form{
+    padding-left: 30%;
+    padding-top: 10%;
+}
+body{
+    background-color: antiquewhite;
+}

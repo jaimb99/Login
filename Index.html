@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/css.css">
+    <script src="JS/js.js"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <form action="action_page.php" method="post" >
+        <fieldset >
+        <table class="container" >
+           
+                <legend>Login</legend>
+            
+            <ul >
+                <tr>
+                
+                <td><label for="uname"><b>Name</b></label></td>
+                    <td><input id="nombre"type="text" placeholder="Enter name" name="uname" required></td>
+                
+            </tr>
+                <tr>
+                    <td><label for="surname"><b>Surname</b></label></td>
+                  <td>  <input id="apellido"type="text" placeholder="Enter Surname" name="surname" required></td>
+                </tr>
+                <tr>
+                    <td><label for="mail"><b>Mail</b></label></td>
+                    <td> <input id="mail" type="email" placeholder="Enter Mail" name="mail" required></td>
+                </tr>
+                <tr>
+                    <td><label for="telf"><b>Telf:</b></label></td>
+                    <td><input id="telf" type="tel" placeholder="Enter phone number" name="phone" required></td>
+                </tr>
+                <tr>
+                    <td><label for="dni"><b>DNI:</b></label></td>
+                    <td><input id="dni"type="dni" placeholder="Enter DNI" name="dni" required></td>
+                </tr>
+                <tr>
+                    <td><label for="iban"><b>IBAN:</b></label></td>
+                    <td><input id="iban"type="iban" placeholder="Enter IBAN" name="iban" required></td>
+                </tr>
+                <tr>
+                    <td><label for="userName"><b>Username:</b></label></td>
+                    <td><input id="nUser"type="userName" placeholder="Enter username" name="iban" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fecNac"><b>Date birth:</b></label></td>
+                    <td><input id="fecNac" type="date" placeholder="Enter date birth" name="dateBirth" required></td>
+                </tr>
+               <td> 
+                 
+                   <button type="submit" id="submit">Login</button>
+                </td>
+                <label>
+
+                <!--    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>-->
+            </table>
+    </fieldset>
+
+        
+    </form>
+
+</body>
+
+</html>
